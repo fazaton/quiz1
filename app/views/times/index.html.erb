@@ -1,1 +1,9 @@
-<h1> Current time is: <%= @t %> </h1>
+<h1 div class='time box'>
+    Current year: <%= @time.strftime("%Y") %> 
+    <br /> 
+    Current month: <%= @time.strftime("%B") %>
+    <br /> 
+    Current day: <%= @time.strftime("%d") %>
+    <br /> 
+    Current time (UTC): <%= @time.strftime("%H:%M:%S") %>
+</h1 /div>

@@ -1,6 +1,9 @@
 class TimesController < ApplicationController
     def index
-        @t = Time.zone.now 
+        @time = Time.new
+    end
+    
+    def about
         
     end
 end
